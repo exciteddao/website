@@ -1,1 +1,1 @@
-# Excited DAO Website
+# ExcitedDAO Website
