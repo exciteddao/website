@@ -1,5 +1,6 @@
 ---
-import { FunkyDiv } from '../components'
+import { Hero } from '../components'
+import './app.css'
 ---
 
 <html lang="en">
@@ -11,9 +12,8 @@ import { FunkyDiv } from '../components'
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1 class="text-3xl">Astro</h1>
-		<FunkyDiv>
-			Hi man!
-		</FunkyDiv>
+		<div class="container mx-auto">
+			<Hero />
+		</div>
 	</body>
 </html>
