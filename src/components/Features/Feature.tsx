@@ -17,7 +17,7 @@ export function Feature({
 }: FeatureProps): React.ReactElement {
   return (
     <div className="flex flex-col justify-between items-center gap-8 feature">
-      <div className="max-w-[100px] md:max-w-[30%] image">
+      <div className="max-w-[100px] md:max-w-[30%] xl:max-w-[130px] image">
         <img src={imageUrl} alt={title} />
       </div>
       <div>
