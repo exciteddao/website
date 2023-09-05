@@ -5,7 +5,7 @@ import { Header } from '../Header';
 
 export function Hero() {
   return (
-    <section className="min-h-[35vh] lg:max-h-[1000px] hero">
+    <section className="min-h-[40vh] lg:min-h-[50vh] hero">
       <div className="foreground">
         <Header />
         <div className="flex flex-col gap-8 justify-center items-center mt-28">
@@ -24,7 +24,7 @@ export function Hero() {
         <div className="bottom-0 lg:bottom-[-30%] city">
           <img className="object-cover" src="/images/city.png" alt="city" />
         </div>
-        <div className="clouds">
+        <div className="w-[40%] md:w-[20%] clouds">
           <img src="/images/clouds.png" alt="clouds" />
         </div>
       </div>
