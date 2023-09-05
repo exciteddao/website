@@ -1,4 +1,4 @@
-.hero-container {
+.hero {
   background: linear-gradient(132deg, #7f71fb 0%, #b773fc 100%);
   padding: 60px;
   position: relative;
@@ -6,32 +6,31 @@
   overflow: hidden;
 }
 
-.foreground {
+.hero .foreground {
   position: relative;
   z-index: 1000;
 }
 
-.logo {
+.hero .logo {
   max-width: 169px;
 }
 
-.title {
+.hero .title {
   color: #fff;
   text-align: center;
   letter-spacing: 0.05em;
   line-height: 1.28;
   font-weight: 600;
-  margin-top: 60px;
 }
 
-.title > span {
+.hero .title > span {
   background: linear-gradient(66deg, #515bce 0.01%, #083049 45.83%, #515bce 98.96%, #ae73fd 99%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.background {
+.hero .background {
   position: absolute;
   z-index: 10;
   top: 0;
@@ -41,7 +40,7 @@
   display: block;
 }
 
-.moon {
+.hero .moon {
   display: block;
   position: absolute;
   z-index: 10;
@@ -55,17 +54,17 @@
 
   opacity: 0;
   transition:
-    opacity 1s ease-in-out 0.8s,
-    transform 1s ease-in-out 0.8s;
+    opacity 1.5s ease-in-out,
+    transform 1.5s ease-in-out;
   transform: translate3d(-50%, 10px, -300px);
 }
 
-.moon-in {
+.hero .moon-in {
   opacity: 1;
   transform: translate3d(-50%, 0, 0);
 }
 
-.city {
+.hero .city {
   display: block;
   position: absolute;
   z-index: 30;
@@ -74,31 +73,34 @@
   transform: translateX(-50%);
   width: 100%;
 
-  transition: opacity 0.2s ease-out 0s;
+  transition: opacity 1s ease-in-out;
 
-  opacity: 0;
+  opacity: 0.5;
 }
 
-.city-in {
+.hero .city-in {
   opacity: 1;
 }
 
-.clouds {
+.hero .clouds {
   display: block;
   position: absolute;
   z-index: 20;
   top: 50%;
   left: -50px;
 
-  transition:
-    opacity 0.6s ease-out 0.5s,
-    transform 5s ease-out;
+  transition: transform 5s ease-out;
 
-  opacity: 0;
   transform: translate3d(-5%, -50%, 0);
 }
 
-.clouds-in {
-  opacity: 1;
+.hero .clouds-in {
   transform: translate3d(0, -50%, 0);
+}
+
+.hero .cta {
+  color: #fff;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1rem 2rem;
 }

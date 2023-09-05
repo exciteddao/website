@@ -2,7 +2,7 @@ import './Header.css';
 
 export function Header(): React.ReactElement {
   return (
-    <div className="flex justify-between items-center">
+    <header className="flex justify-between items-center header">
       <img className="logo" src="/images/xctd-logo.svg" alt="Excited" />
       <ul className="flex items-center gap-8">
         <li>
@@ -29,6 +29,6 @@ export function Header(): React.ReactElement {
           <button className="link button">Register</button>
         </li>
       </ul>
-    </div>
+    </header>
   );
 }
