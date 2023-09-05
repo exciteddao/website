@@ -15,6 +15,7 @@ export function What() {
           deal flow and allocations at the same exact terms with our copy-investor community
         </Trans>
       </p>
+      <img src={t('what.imageUrl')} alt="members list" />
     </section>
   );
 }

@@ -1,5 +1,6 @@
 .what {
   background: linear-gradient(132deg, rgba(87, 153, 235, 0.1) 0%, rgba(159, 116, 251, 0.1) 100%);
+  position: relative;
 }
 
 .what .title {
@@ -13,4 +14,5 @@
 .what .description {
   color: #947bf9;
   font-size: 1.375rem;
+  margin-bottom: 2.875rem;
 }
