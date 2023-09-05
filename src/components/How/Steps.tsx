@@ -4,9 +4,10 @@ import { Connection } from './Connection';
 export function Steps() {
   return (
     <>
-      <div className="hidden xl:flex justify-end pr-[120px] 2xl:pr-[200px]">
-        <div className="flex flex-col items-center connection">
+      <div className="hidden xl:flex justify-end pr-[120px] 2xl:pr-[200px] relative">
+        <div className="flex flex-col items-center connection gap-4">
           <label>{t('how.step3ReturnLabel')}</label>
+          <img className="absolute top-[40px]" src="/images/tokens.svg" alt="tokens" />
           <img src="/images/top-back-arrow.svg" alt="top back arrow" />
         </div>
       </div>
@@ -43,9 +44,10 @@ export function Steps() {
         </div>
       </div>
 
-      <div className="hidden xl:flex justify-start pl-[120px] 2xl:pl-[180px]">
+      <div className="hidden xl:flex justify-start pl-[120px] 2xl:pl-[180px] relative">
         <div className="flex flex-col items-center connection">
           <label>{t('how.step2ReturnLabel')}</label>
+          <img className="absolute top-[103px]" src="/images/tokens.svg" alt="tokens" />
           <img className="mt-[-30px]" src="/images/bottom-back-arrow.svg" alt="bottom back arrow" />
         </div>
       </div>
