@@ -1,0 +1,63 @@
+.highlights > .highlight {
+  padding: 3rem;
+  border-radius: 33px;
+  background: linear-gradient(163deg, #907ef8 0%, #5b98ec 100%);
+  color: #fff;
+
+  @media (min-width: 640px) {
+    padding: 6rem;
+  }
+}
+
+.highlights > .highlight:nth-child(2) {
+  background: linear-gradient(135deg, #f779df 0%, #448dd9 100%);
+}
+
+.highlights > .highlight:nth-child(3) {
+  background: linear-gradient(131deg, #9bbef1 0%, #5aace2 73.32%, #ad8efd 100%);
+}
+
+.highlights > .highlight > .title {
+  color: #fff;
+  margin: 0;
+}
+
+.highlights > .highlight > .description {
+  text-align: center;
+  font-size: 1.563rem;
+}
+
+.highlights > .highlight > .label {
+  display: inline-block;
+  border-radius: 3rem;
+  border: 1px solid #fff;
+  padding: 1.25rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.highlights > .highlight > .cta {
+  display: inline-block;
+  border-radius: 3rem;
+  padding: 1.25rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #443f64;
+}
+
+.highlights > .highlight > .points {
+  font-size: 1.188rem;
+}
+
+.highlights > .highlight > .points label {
+  font-size: 1.375rem;
+  background-color: #fff;
+  color: #5799eb;
+  width: 40px;
+  height: 40px;
+  padding: 4px 0;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 10px 26px 50px rgba(49, 89, 211, 0.55);
+  margin-bottom: 1rem;
+}

@@ -20,7 +20,7 @@ section {
   padding: 60px 30px;
   margin: 0 auto;
 
-  @media (min-width: 640px) {
+  @media (min-width: 1536px) {
     padding: 80px 120px;
   }
 }
