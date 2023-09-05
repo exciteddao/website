@@ -1,6 +1,6 @@
 ---
 import i18next, { changeLanguage, t } from "i18next";
-import { Hero, Features } from "../components";
+import { Hero, Features, What } from "../components";
 import "./app.css";
 
 changeLanguage("en");
@@ -17,10 +17,11 @@ changeLanguage("en");
 		<meta name="generator" content={Astro.generator} />
 		<title>{t('pageTitle')}</title>
 	</head>
-	<body>
+	<body class="app">
 		<div class="container mx-auto">
 			<Hero />
 			<Features />
+			<What />
 		</div>
 	</body>	
 </html>

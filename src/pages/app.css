@@ -4,3 +4,13 @@ body {
   margin: 0;
   font-family: 'DM Sans', 'Arial', sans-serif;
 }
+
+.app h2 {
+  color: #26207f;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 150% */
+}
