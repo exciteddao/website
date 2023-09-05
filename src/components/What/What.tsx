@@ -6,7 +6,7 @@ export function What() {
   return (
     <section className="what">
       <h2 className="title">{t('what.title')}</h2>
-      <p className="description">
+      <p className="featured-description">
         <Trans key="what.description">
           At the core of our platform is the Excited investment DAO.{' '}
           <strong>A community of hundreds of accredited investors</strong>, all market veterans and
