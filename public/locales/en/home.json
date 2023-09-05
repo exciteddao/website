@@ -45,50 +45,51 @@
     "step2ReturnLabel": "Tokens Via Copy contract",
     "step3ReturnLabel": "Token distribution"
   },
-  "highlights": [{
-    "label": "For copy-investors",
-    "title": "Get access to private round terms",
-    "description": "By Copy-investing our market leaders you get to automatically mirror their investment portfolio. You will purchase the same assets they buy, at the same prices and terms.",
-    "points": [
-      "<0>Buy and delegate</0> XCTD tokens to Copy-invest an Excited member",
-      "<0>Fund the Copy-invest</0> smart contract for seamless copy-investing",
-      "Automatically <0>receive tokens</0> to your wallet with the same terms as your member",
-      "<0>Increase</0> your group's XCTD share to grow investment allocation"
-    ],
-    "imageUrl": "",
-    "ctaLabel": "Register as Copy-investor",
-    "ctaUrl": "#"
-  },
-  {
-    "label": "For projects",
-    "title": "Raise big tickets from a strong community",
-    "description": "Get a boost to your fundraising round from a community of accredited market leaders and scale your token distribution",
-    "points": [
-      "Backing from Excited Investment DAO members, accredited market insiders, and leaders",
-      "Token distribution to a large community of Copy-investors",
-      "Investment rounds with insurance for fairness and excitement",
-      "Ongoing support with listing, market making, and secondary market partners"
-    ],
-    "imageUrl": "",
-    "ctaLabel": "Submit your project",
-    "ctaUrl": "#"
-  },
-  {
-    "label": "For DAO members",
-    "title": "Bigger buying power, lower risk, community scale",
-    "description": "We leverage our group buying power to buy big tickets from leading projects, with refund options. We scale investments and token distribution with community Copy-investments",
-    "points": [
-      "Hold XCTD to join Excited Investment DAO (for accredited investors only)",
-      "Leverage DAO and copy-investors' buying power for favorable terms from top projects",
-      "Increase allocation, personal buying power, and project support by building a Copy-investor community",
-      "Participate in governance to curate and decide on the best investment projects"
-    ],
-    "imageUrl": "",
-    "ctaLabel": "Invest",
-    "ctaUrl": "#"
-  }
-],
-  "tagline": "Building the biggest <0>Investment Platform</0> in the market",
+  "highlights": [
+    {
+      "label": "For copy-investors",
+      "title": "Get access to private round terms",
+      "description": "By Copy-investing our market leaders you get to automatically mirror their investment portfolio. You will purchase the same assets they buy, at the same prices and terms.",
+      "points": [
+        "<0>Buy and delegate</0> XCTD tokens to Copy-invest an Excited member",
+        "<0>Fund the Copy-invest</0> smart contract for seamless copy-investing",
+        "Automatically <0>receive tokens</0> to your wallet with the same terms as your member",
+        "<0>Increase</0> your group's XCTD share to grow investment allocation"
+      ],
+      "imageUrl": "",
+      "ctaLabel": "Register as Copy-investor",
+      "ctaUrl": "#"
+    },
+    {
+      "label": "For projects",
+      "title": "Raise big tickets from a strong community",
+      "description": "Get a boost to your fundraising round from a community of accredited market leaders and scale your token distribution",
+      "points": [
+        "Backing from Excited Investment DAO members, accredited market insiders, and leaders",
+        "Token distribution to a large community of Copy-investors",
+        "Investment rounds with insurance for fairness and excitement",
+        "Ongoing support with listing, market making, and secondary market partners"
+      ],
+      "imageUrl": "",
+      "ctaLabel": "Submit your project",
+      "ctaUrl": "#"
+    },
+    {
+      "label": "For DAO members",
+      "title": "Bigger buying power, lower risk, community scale",
+      "description": "We leverage our group buying power to buy big tickets from leading projects, with refund options. We scale investments and token distribution with community Copy-investments",
+      "points": [
+        "Hold XCTD to join Excited Investment DAO (for accredited investors only)",
+        "Leverage DAO and copy-investors' buying power for favorable terms from top projects",
+        "Increase allocation, personal buying power, and project support by building a Copy-investor community",
+        "Participate in governance to curate and decide on the best investment projects"
+      ],
+      "imageUrl": "",
+      "ctaLabel": "Invest",
+      "ctaUrl": "#"
+    }
+  ],
+  "footerText": "Building the biggest <0>Investment Platform</0> in the market",
   "socials": {
     "telegram": "https://t.me/exciteddao"
   }
