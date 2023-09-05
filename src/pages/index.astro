@@ -1,9 +1,12 @@
 ---
-import { Hero } from '../components'
-import './app.css'
+import i18next, { changeLanguage, t } from "i18next";
+import { Hero, Features } from "../components";
+import "./app.css";
+
+changeLanguage("en");
 ---
 
-<html lang="en">
+<html lang={i18next.language}>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,11 +15,27 @@ import './app.css'
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{t('pageTitle')}</title>
 	</head>
 	<body>
 		<div class="container mx-auto">
 			<Hero />
+			<Features />
 		</div>
 	</body>	
 </html>
+
+<script>
+
+	setTimeout(() => {
+		const moon = document.querySelector('.moon');
+		moon?.classList.add('moon-in')
+	}, 1000);
+
+	const city = document.querySelector('.city');
+	city?.classList.add('city-in')
+
+	const clouds = document.querySelector('.clouds');
+	clouds?.classList.add('clouds-in')
+
+</script>
