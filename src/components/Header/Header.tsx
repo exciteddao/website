@@ -1,9 +1,11 @@
+import { Logo } from '../Logo';
+import { TelegramButton } from '../TelegramButton';
 import './Header.css';
 
 export function Header(): React.ReactElement {
   return (
     <header className="flex justify-between items-center header">
-      <img className="logo" src="/images/xctd-logo.svg" alt="Excited" />
+      <Logo className="text-white" />
       <ul className="flex items-center gap-8">
         <li>
           <a className="link" href="#">
@@ -21,9 +23,7 @@ export function Header(): React.ReactElement {
           </a>
         </li>
         <li>
-          <a className="link" href="#">
-            Telegram
-          </a>
+          <TelegramButton className="text-white" />
         </li>
         <li>
           <button className="link button">Register</button>
