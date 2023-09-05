@@ -21,7 +21,7 @@ section {
   margin: 0 auto;
 
   @media (min-width: 640px) {
-    padding: 80px 160px;
+    padding: 80px 120px;
   }
 }
 
