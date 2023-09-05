@@ -29,8 +29,14 @@ changeLanguage("en");
 
 	setTimeout(() => {
 		const moon = document.querySelector('.moon');
+		const moonB = document.querySelector('.moon-b');
+		const moonC = document.querySelector('.moon-c');
+
 		moon?.classList.add('moon-in')
-	}, 1000);
+		moonB?.classList.add('moon-b-in')
+		moonC?.classList.add('moon-c-in')
+
+	}, 500);
 
 	const city = document.querySelector('.city');
 	city?.classList.add('city-in')

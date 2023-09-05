@@ -19,6 +19,8 @@ export function Hero() {
       </div>
       <div className="background">
         <div className="moon" />
+        <div className="moon-b" />
+        <div className="moon-c" />
         <div className="city">
           <img className="object-cover" src="/images/city.png" alt="city" />
         </div>

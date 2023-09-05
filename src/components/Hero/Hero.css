@@ -2,7 +2,7 @@
   background: linear-gradient(132deg, #7f71fb 0%, #b773fc 100%);
   padding: 60px;
   position: relative;
-  min-height: 60vh;
+  min-height: 70vh;
   overflow: hidden;
 }
 
@@ -68,7 +68,7 @@
   display: block;
   position: absolute;
   z-index: 30;
-  bottom: -100px;
+  bottom: -30%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -103,4 +103,50 @@
   border-radius: 2rem;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 1rem 2rem;
+}
+
+.hero .moon-b {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5;
+  top: 0;
+  left: 1%;
+  width: 30%;
+  padding-top: 30%;
+  background-color: rgba(255, 255, 255, 0.05);
+
+  transition:
+    opacity 1.5s ease-in-out,
+    transform 1.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(-80%);
+}
+
+.hero .moon-b-in {
+  opacity: 1;
+  transform: translateY(-70%);
+}
+
+.hero .moon-c {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5;
+  top: 5%;
+  left: 75%;
+  width: 6%;
+  padding-top: 6%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition:
+    opacity 1.5s ease-in-out,
+    transform 1.5s ease-in-out;
+  opacity: 0;
+  transform: translateX(10%);
+}
+
+.hero .moon-c-in {
+  opacity: 1;
+  transform: translateX(0);
 }
