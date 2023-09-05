@@ -17,11 +17,11 @@ body {
 }
 
 section {
-  padding: 50px 30px;
+  padding: 60px 30px;
   margin: 0 auto;
 
   @media (min-width: 640px) {
-    padding: 60px 120px;
+    padding: 80px 160px;
   }
 }
 

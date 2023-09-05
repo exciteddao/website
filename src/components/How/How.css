@@ -1,0 +1,61 @@
+.how .step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.how .step > .diamond {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 300px;
+  height: 300px;
+  transform: rotateZ(45deg) scale(0.7);
+  border-radius: 20px;
+  padding: 20px;
+  border: 3px dashed #fff;
+}
+
+.how .step > .diamond.first {
+  background:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(40deg, #4fc3f7, #fff 45%) border-box;
+}
+
+.how .step > .diamond.second {
+  background:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(60deg, #359cef, #fff 20%, #fff 60%, #359cef) border-box;
+}
+
+.how .step > .diamond.third {
+  background:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(120deg, #6940cc, #fff 50%, #fff 70%, #6940cc) border-box;
+}
+
+.how .step > .diamond > .inner {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}
+
+.how .step > label {
+  position: relative;
+  z-index: 10;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.how .connection > label {
+  font-size: 1.375rem;
+  color: #947bf9;
+}
