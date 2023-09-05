@@ -14,3 +14,12 @@ body {
   font-weight: 400;
   line-height: 72px; /* 150% */
 }
+
+.app section {
+  padding: 50px 30px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    padding: 60px;
+  }
+}
