@@ -9,8 +9,8 @@ export function Features(): React.ReactElement {
         We leverage the buying power of our investment DAO and copy-investors community to get
         access to the <span>best investment deals in the market</span> at lower risk
       </p>
-      <div className="flex flex-row flex-wrap md:flex-nowrap items-stretch gap-8 mt-32">
-        <div className="basis-full md:basis-1/3 mb-16">
+      <div className="flex flex-row flex-wrap lg:flex-nowrap items-stretch gap-8 mt-32">
+        <div className="basis-full lg:basis-1/3 mb-16">
           <Feature
             imageUrl={t('features.feature1.imageUrl')}
             title={t('features.feature1.title')}
@@ -19,7 +19,7 @@ export function Features(): React.ReactElement {
             linkText={t('features.feature1.linkText')}
           />
         </div>
-        <div className="basis-full md:basis-1/3 mb-16">
+        <div className="basis-full lg:basis-1/3 mb-16">
           <Feature
             imageUrl={t('features.feature2.imageUrl')}
             title={t('features.feature2.title')}
@@ -28,7 +28,7 @@ export function Features(): React.ReactElement {
             linkText={t('features.feature2.linkText')}
           />
         </div>
-        <div className="basis-full md:basis-1/3 mb-16">
+        <div className="basis-full lg:basis-1/3 mb-16">
           <Feature
             imageUrl={t('features.feature3.imageUrl')}
             title={t('features.feature3.title')}
