@@ -6,7 +6,7 @@ export function Header(): React.ReactElement {
   return (
     <header className="flex justify-between items-center header">
       <Logo className="text-white" />
-      <ul className="flex items-center gap-8">
+      <ul className="hidden sm:flex items-center gap-8">
         <li>
           <a className="link" href="#">
             Traders
