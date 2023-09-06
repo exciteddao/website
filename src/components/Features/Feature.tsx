@@ -1,4 +1,4 @@
-import './feature.css';
+import './Feature.css';
 
 type FeatureProps = {
   title: string;
