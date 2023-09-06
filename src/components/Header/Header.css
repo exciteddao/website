@@ -4,7 +4,7 @@
 }
 
 .header .link:hover {
-  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.5;
 }
 
 .header .button {
@@ -19,4 +19,111 @@
 
 .header .button:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header .hamburger {
+  width: 30px;
+  height: 21px;
+  position: relative;
+  z-index: 500;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.header .hamburger span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+.header .hamburger span:nth-child(1) {
+  top: 0px;
+}
+
+.header .hamburger span:nth-child(2) {
+  top: 9px;
+}
+
+.header .hamburger span:nth-child(3) {
+  top: 18px;
+}
+
+.header .hamburger.open span {
+  background: #4a4a4a;
+}
+
+.header .hamburger.open span:nth-child(1) {
+  top: 9px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.header .hamburger.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.header .hamburger.open span:nth-child(3) {
+  top: 9px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.header .mobile-nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: black;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  padding: 60px;
+}
+.header .mobile-nav.mobile-nav-in {
+  transform: translateX(0);
+}
+
+.header .mobile-nav .link {
+  color: #ad73fc;
+  font-size: 2rem;
+}
+
+.header .mobile-nav .button {
+  background: linear-gradient(138deg, #6295ee 0%, #947bf9 100%);
+  border: none;
+  font-size: 2rem;
+  border-radius: 3rem;
+  padding: 1rem 3rem;
+}
+
+.header .mobile-nav .button:hover {
+  opacity: 0.8;
 }

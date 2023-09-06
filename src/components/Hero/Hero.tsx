@@ -24,10 +24,10 @@ export function Hero() {
         <div className="moon-b" />
         <div className="moon-c" />
         <div className="bottom-0 lg:bottom-[-20%] city">
-          <img className="object-cover" src="/website/images/city.png" alt="city" />
+          <img className="object-cover" src="/images/city.png" alt="city" />
         </div>
         <div className="w-[40%] md:w-[20%] clouds">
-          <img src="/website/images/clouds.png" alt="clouds" />
+          <img src="/images/clouds.png" alt="clouds" />
         </div>
       </div>
     </div>
