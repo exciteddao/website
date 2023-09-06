@@ -24,7 +24,7 @@ export function Header(): React.ReactElement {
           <TelegramButton className="text-white" />
         </li>
         <li>
-          <a href={t('header.registerButton.url')} className="link button">
+          <a href={t('header.registerButton.url')} className="button">
             {t('header.registerButton.text')}
           </a>
         </li>

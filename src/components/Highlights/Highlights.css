@@ -46,6 +46,10 @@
   text-align: center;
 }
 
+.highlights > .highlight > .cta:hover {
+  opacity: 0.8;
+}
+
 .highlights > .highlight > .points {
   font-size: 1.188rem;
 }

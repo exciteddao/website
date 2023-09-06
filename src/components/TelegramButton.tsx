@@ -5,7 +5,7 @@ type TelegramButtonProps = {
   width?: number;
   height?: number;
 };
-export function TelegramButton(props: TelegramButtonProps) {
+export function TelegramButton({ className, ...props }: TelegramButtonProps) {
   return (
     <a href={t('socials.telegram')} target="_blank">
       <svg
@@ -14,6 +14,7 @@ export function TelegramButton(props: TelegramButtonProps) {
         viewBox="0 0 22 22"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className={`hover:opacity-50 ${className}`}
         {...props}
       >
         <g id="telegram (5) 1" clipPath="url(#clip0_59_1032)">
