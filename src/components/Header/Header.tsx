@@ -18,17 +18,19 @@ export function Header(): React.ReactElement {
       <div className="max-w-[30%] md:max-w-full mr-8">
         <Logo className="text-white w-full" />
       </div>
-      <ul className="hidden sm:flex items-center gap-8">
-        {Menu}
-        <li>
-          <TelegramButton className="text-white" />
-        </li>
-        <li>
-          <a href={t('header.registerButton.url')} className="button">
-            {t('header.registerButton.text')}
-          </a>
-        </li>
-      </ul>
+      <nav>
+        <ul className="hidden sm:flex items-center gap-8">
+          {Menu}
+          <li>
+            <TelegramButton className="text-white" />
+          </li>
+          <li>
+            <a href={t('header.registerButton.url')} className="button">
+              {t('header.registerButton.text')}
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
