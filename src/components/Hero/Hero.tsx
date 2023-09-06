@@ -1,14 +1,12 @@
 import { Trans } from 'react-i18next';
 import { t } from 'i18next';
 import './Hero.css';
-import { Header } from '../Header';
 
 export function Hero() {
   return (
     <div className="min-h-[50vh] md:min-h-[70vh] hero">
       <div className="foreground">
-        <Header />
-        <div className="flex flex-col gap-8 justify-center items-center mt-16 md:mt-28">
+        <div className="flex flex-col gap-8 justify-center items-center mt-20 md:mt-32">
           <h1 className="text-2xl md:text-4xl lg:text-5xl title">
             <Trans i18nKey="hero.title">
               Building the <span>biggest Investment Platform</span> in the market
