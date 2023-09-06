@@ -19,7 +19,7 @@ changeLanguage("en");
 	</head>
 	<body class="app">
 		<div class="container mx-auto">
-			<Hero client:load />
+			<Hero />
 			<Features />
 			<What />
 			<How />
@@ -47,5 +47,45 @@ changeLanguage("en");
 
 	const clouds = document.querySelector('.clouds');
 	clouds?.classList.add('clouds-in')
+
+	const hamburger = document.querySelector('#xctd-menu');
+	const menu = document.querySelector('.mobile-nav');
+	const menuLinks = document.querySelectorAll('a.mobile-nav-link');
+
+	let open = false;
+
+	function openMenu() {
+		open = true
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${window.scrollY}px`;
+
+			hamburger?.classList.add('open')
+			menu?.classList.add('mobile-nav-in')
+	}
+
+	function closeMenu() {
+		open = false
+			const scrollY = document.body.style.top;
+			document.body.style.position = '';
+			document.body.style.top = '';
+			window.scrollTo(0, parseInt(scrollY || '0') * -1);
+
+			hamburger?.classList.remove('open')
+			menu?.classList.remove('mobile-nav-in')
+	}
+
+	hamburger?.addEventListener('click', () => {
+		if (open) {
+			closeMenu()
+		} else {
+			openMenu()
+		}
+	})
+
+	menuLinks.forEach(link => {
+		link.addEventListener('click', () => {
+			closeMenu()
+		})
+	})
 
 </script>
