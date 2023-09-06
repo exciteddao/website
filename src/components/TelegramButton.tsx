@@ -2,17 +2,19 @@ import { t } from 'i18next';
 
 type TelegramButtonProps = {
   className?: string;
+  width?: number;
+  height?: number;
 };
-export function TelegramButton({ className }: TelegramButtonProps) {
+export function TelegramButton(props: TelegramButtonProps) {
   return (
     <a href={t('socials.telegram')} target="_blank">
       <svg
-        className={className}
         width="22"
         height="22"
         viewBox="0 0 22 22"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        {...props}
       >
         <g id="telegram (5) 1" clip-path="url(#clip0_59_1032)">
           <path
