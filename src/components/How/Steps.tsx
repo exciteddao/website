@@ -3,7 +3,7 @@ import { Connection } from './Connection';
 
 export function Steps() {
   return (
-    <>
+    <div>
       <div className="hidden xl:flex justify-end pr-[120px] 2xl:pr-[200px] relative">
         <div className="flex flex-col items-center connection gap-4">
           <label>{t('how.step3ReturnLabel')}</label>
@@ -12,7 +12,7 @@ export function Steps() {
         </div>
       </div>
 
-      <div className="hidden xl:flex justify-center items-center gap-8">
+      <div className="flex flex-col xl:flex-row justify-center items-center gap-8">
         <div className="step">
           <div className="diamond first">
             <div className="inner" />
@@ -55,6 +55,6 @@ export function Steps() {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }

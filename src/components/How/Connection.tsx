@@ -8,6 +8,7 @@ export function Connection({ label }: ConnectionProps) {
       <label>{label}</label>
 
       <svg
+        className="rotate-90 xl:rotate-0"
         xmlns="http://www.w3.org/2000/svg"
         width="48"
         height="52"
