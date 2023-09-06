@@ -9,7 +9,7 @@ export function Footer() {
     <section className="footer">
       <div className="flex justify-center items-center">
         <div className="pt-[150px]">
-          <img src="/images/plant-bot.png" alt="plant bot" />
+          <img src="/website/images/plant-bot.png" alt="plant bot" />
         </div>
         <footer className="flex flex-col items-center gap-16">
           <Logo className="text-[#AD73FC]" />
@@ -21,7 +21,7 @@ export function Footer() {
           <TelegramButton className="text-[#AD73FC]" />
         </footer>
         <div className="pt-[150px]">
-          <img src="/images/plant-bot2.png" alt="plant bot 2" />
+          <img src="/website/images/plant-bot2.png" alt="plant bot 2" />
         </div>
       </div>
     </section>
