@@ -6,7 +6,7 @@ import astroI18next from 'astro-i18next';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://exciteddao.github.io',
-  base: '/website',
+  base: import.meta.env.DEV ? '' : '/website',
   integrations: [
     tailwind(),
     react({
