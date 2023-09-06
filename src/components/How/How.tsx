@@ -4,7 +4,7 @@ import { Steps } from './Steps';
 
 export function How() {
   return (
-    <section className="how">
+    <section id="how-copy-invest-works" className="how">
       <h2>{t('how.title')}</h2>
       <p className="featured-description">{t('how.description')}</p>
       <Steps />

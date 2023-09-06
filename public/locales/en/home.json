@@ -1,30 +1,48 @@
 {
   "pageTitle": "Excited DAO",
+  "header": {
+    "menu": [{
+      "text": "Traders",
+      "url": "#traders"
+    },
+    {
+      "text": "Projects",
+      "url": "#projects"
+    },
+    {
+      "text": "Members",
+      "url": "#members"
+    }],
+    "registerButton": {
+      "text": "Register",
+      "url": "mailto:hello@exciteddao.com?subject=Interested in Excited DAO"
+    }
+  },
   "hero": {
     "title": "Building the <1>biggest Investment<br />Platform</1> in the market",
     "ctaLabel": "How it works",
-    "ctaLink": "/how-it-works/"
+    "ctaUrl": "#how-copy-invest-works"
   },
   "features": {
     "description": "We leverage the buying power of our investment DAO and copy-investors community to get access to the <1>best investment deals in the market</1> at lower risk",
     "feature1": {
       "title": "Copy Invest",
       "description": "Copy-invest DAO members to automatically buy the same assets at the same prices and terms",
-      "linkUrl": "/features/copy-invest/",
+      "linkUrl": "#traders",
       "linkText": "For Traders",
       "imageUrl": "/website/images/features/copy-invest.png"
     },
     "feature2": {
       "title": "Get investors",
       "description": "Boost your fundraising with accredited market leaders and scale your token distribution",
-      "linkUrl": "/features/re-invest/",
+      "linkUrl": "#projects",
       "linkText": "For Projects",
       "imageUrl": "/website/images/features/get-investors.png"
     },
     "feature3": {
       "title": "Become a member",
       "description": "We use group buying power for large purchases from top projects, with refund options, and scale investments through community Copy-investments.",
-      "linkUrl": "/features/member/",
+      "linkUrl": "#members",
       "linkText": "For OGs",
       "imageUrl": "/website/images/features/become-a-member.png"
     }
@@ -47,6 +65,7 @@
   },
   "highlights": [
     {
+      "id": "traders",
       "label": "For copy-investors",
       "title": "Get access to private round terms",
       "description": "By Copy-investing our market leaders you get to automatically mirror their investment portfolio. You will purchase the same assets they buy, at the same prices and terms.",
@@ -58,9 +77,10 @@
       ],
       "imageUrl": "",
       "ctaLabel": "Register as Copy-investor",
-      "ctaUrl": "#"
+      "ctaUrl": "mailto:hello@exciteddao.com?subject=Register as a trader"
     },
     {
+      "id": "projects",
       "label": "For projects",
       "title": "Raise big tickets from a strong community",
       "description": "Get a boost to your fundraising round from a community of accredited market leaders and scale your token distribution",
@@ -72,9 +92,10 @@
       ],
       "imageUrl": "",
       "ctaLabel": "Submit your project",
-      "ctaUrl": "#"
+      "ctaUrl": "mailto:hello@exciteddao.com?subject=Submit my project"
     },
     {
+      "id": "members",
       "label": "For DAO members",
       "title": "Bigger buying power, lower risk, community scale",
       "description": "We leverage our group buying power to buy big tickets from leading projects, with refund options. We scale investments and token distribution with community Copy-investments",
@@ -86,7 +107,7 @@
       ],
       "imageUrl": "",
       "ctaLabel": "Invest",
-      "ctaUrl": "#"
+      "ctaUrl": "mailto:hello@exciteddao.com?subject=Register as a member"
     }
   ],
   "footerText": "Building the biggest <1>Investment Platform</1> in the market",

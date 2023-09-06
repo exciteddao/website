@@ -1,4 +1,5 @@
 export type THighlight = {
+  id: string;
   title: string;
   description: string;
   label: string;
