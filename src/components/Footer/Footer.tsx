@@ -9,7 +9,7 @@ export function Footer() {
     <section className="footer">
       <div className="flex flex-wrap justify-center items-center">
         <div className="md:basis-1/4 hidden md:block">
-          <img src="/images/plant-bot.png" alt="plant bot" />
+          <img src="/website/images/plant-bot.png" alt="plant bot" />
         </div>
         <footer className="md:basis-1/2 flex flex-col items-center gap-8">
           <Logo className="text-[#AD73FC]" />
@@ -21,7 +21,7 @@ export function Footer() {
           <TelegramButton className="text-[#AD73FC]" width={44} height={44} />
         </footer>
         <div className="md:basis-1/4 hidden md:block">
-          <img src="/images/plant-bot2.png" alt="plant bot 2" />
+          <img src="/website/images/plant-bot2.png" alt="plant bot 2" />
         </div>
       </div>
     </section>
