@@ -3,9 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro-i18next generate && astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro-i18next generate && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint . --ext .ts --fix"

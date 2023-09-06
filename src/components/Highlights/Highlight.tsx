@@ -9,7 +9,7 @@ export function Highlight({ id, title, description, ctaLabel, ctaUrl, label, poi
       <p className="mb-[2rem] description">{description}</p>
       <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mb-[2rem] points">
         {points.map((point, index) => (
-          <Point point={point} index={index + 1} />
+          <Point key={`point-${index}`} point={point} index={index + 1} />
         ))}
       </ul>
       <a className="cta" href={ctaUrl}>

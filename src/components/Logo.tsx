@@ -12,7 +12,7 @@ export function Logo({ className }: LogoProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_48_923)">
+      <g clipPath="url(#clip0_48_923)">
         <path
           d="M153.24 0C151.976 6.90382 150.954 7.93808 144.082 9.20949C150.947 10.4809 151.976 11.5086 153.24 18.419C154.504 11.5152 155.526 10.4809 162.397 9.20949C155.532 7.93808 154.504 6.91041 153.24 0Z"
           fill="currentColor"
