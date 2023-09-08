@@ -1,11 +1,41 @@
+.footer {
+  background: url('/website/images/footer-bg.png') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 6rem;
+}
+
 .footer h3 {
   font-size: 2.063rem;
   font-weight: 700;
 }
 
 .footer h3 > span {
-  background: linear-gradient(66deg, #515bce 0.01%, #083049 45.83%, #ae73fd 98.96%);
+  background: linear-gradient(175deg, #FFF 15.68%, #FFF 51.63%, #5DADE3 93.31%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.footer .link {
+  font-size: 0.75rem;
+
+}
+
+.footer .link:hover {
+  opacity: 0.5;
+}
+
+.footer .button {
+  color: #fff;
+  font-size: 0.75rem;
+  border-radius: 1.5rem;
+  border: 1px solid #fff;
+  padding: 0.5rem 1.625rem;
+
+  transition: background-color 0.1s ease-in-out;
+}
+
+.footer .button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
