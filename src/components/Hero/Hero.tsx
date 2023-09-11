@@ -4,9 +4,9 @@ import './Hero.css';
 
 export function Hero() {
   return (
-    <div className="min-h-[50vh] md:min-h-[70vh] hero">
+    <div className="flex flex-col justify-center items-center min-h-[50vh] md:min-h-[70vh] hero">
       <div className="foreground">
-        <div className="flex flex-col gap-8 justify-center items-center mt-20 md:mt-32">
+        <div className="flex flex-col gap-8 justify-center items-center">
           <h1 className="text-2xl md:text-4xl lg:text-5xl title">
             <Trans i18nKey="hero.title">
               Building the <span>biggest Investment Platform</span> in the market
