@@ -59,6 +59,9 @@ changeLanguage("en");
 		open = true
       document.body.style.position = 'fixed';
       document.body.style.top = `-${window.scrollY}px`;
+			document.body.style.left = '0';
+			document.body.style.right = '0';
+			document.body.style.bottom = '0';
 
 			hamburger?.classList.add('open')
 			menu?.classList.add('mobile-nav-in')
@@ -69,6 +72,9 @@ changeLanguage("en");
 			const scrollY = document.body.style.top;
 			document.body.style.position = '';
 			document.body.style.top = '';
+			document.body.style.left = '';
+			document.body.style.right = '';
+			document.body.style.bottom = '';
 			window.scrollTo(0, parseInt(scrollY || '0') * -1);
 
 			hamburger?.classList.remove('open')
