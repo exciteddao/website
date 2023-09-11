@@ -5,8 +5,7 @@ import astroI18next from 'astro-i18next';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://exciteddao.github.io',
-  base: '/website',
+  site: 'https://exciteddao.com',
   integrations: [
     tailwind(),
     react({

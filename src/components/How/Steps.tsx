@@ -7,8 +7,8 @@ export function Steps() {
       <div className="hidden xl:flex justify-end pr-[120px] 2xl:pr-[200px] relative">
         <div className="flex flex-col items-center connection gap-4">
           <label>{t('how.step3ReturnLabel')}</label>
-          <img className="absolute top-[40px]" src="/website/images/tokens.svg" alt="tokens" />
-          <img src="/website/images/top-back-arrow.svg" alt="top back arrow" />
+          <img className="absolute top-[40px]" src="/images/tokens.svg" alt="tokens" />
+          <img src="/images/top-back-arrow.svg" alt="top back arrow" />
         </div>
       </div>
 
@@ -18,7 +18,7 @@ export function Steps() {
             <div className="inner" />
           </div>
           <div className="flex flex-col items-center justify-center gap-4 mt-[-100px] z-10">
-            <img src="/website/images/friend-bots.png" alt="friend bots" />
+            <img src="/images/friend-bots.png" alt="friend bots" />
             <label>{t('how.step1Label')}</label>
           </div>
         </div>
@@ -28,7 +28,7 @@ export function Steps() {
             <div className="inner" />
           </div>
           <div className="flex flex-col items-center justify-center gap-4 mt-[-100px] z-10">
-            <img src="/website/images/bulb-robot.png" alt="friend bots" />
+            <img src="/images/bulb-robot.png" alt="friend bots" />
             <label>{t('how.step2Label')}</label>
           </div>
         </div>
@@ -38,7 +38,7 @@ export function Steps() {
             <div className="inner" />
           </div>
           <div className="flex flex-col items-center justify-center gap-4 mt-[-100px] z-10">
-            <img src="/website/images/ship.png" alt="friend bots" />
+            <img src="/images/ship.png" alt="friend bots" />
             <label>{t('how.step3Label')}</label>
           </div>
         </div>
@@ -47,10 +47,10 @@ export function Steps() {
       <div className="hidden xl:flex justify-start pl-[120px] 2xl:pl-[180px] relative">
         <div className="flex flex-col items-center connection">
           <label>{t('how.step2ReturnLabel')}</label>
-          <img className="absolute top-[103px]" src="/website/images/tokens.svg" alt="tokens" />
+          <img className="absolute top-[103px]" src="/images/tokens.svg" alt="tokens" />
           <img
             className="mt-[-30px]"
-            src="/website/images/bottom-back-arrow.svg"
+            src="/images/bottom-back-arrow.svg"
             alt="bottom back arrow"
           />
         </div>
