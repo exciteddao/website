@@ -17,10 +17,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-.footer .link {
-  font-size: 0.75rem;
-
-}
 
 .footer .link:hover {
   opacity: 0.5;
@@ -28,7 +24,6 @@
 
 .footer .button {
   color: #fff;
-  font-size: 0.75rem;
   border-radius: 1.5rem;
   border: 1px solid #fff;
   padding: 0.5rem 1.625rem;
